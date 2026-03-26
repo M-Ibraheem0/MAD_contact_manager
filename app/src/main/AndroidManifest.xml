@@ -3,16 +3,14 @@
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Contact Manager"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App2023CS173">
 
         <activity
-            android:name=".SplashActivity"
+            android:name="com.example.myapplication.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,9 +18,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" />
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".ConfirmationActivity" />
+        <activity android:name="com.cs173.myapplication.MainActivity" />
+        <activity android:name="com.cs173.myapplication.AddEditContactActivity" />
+        <activity android:name="com.cs173.myapplication.FullImageActivity" />
+
+        <activity android:name="com.example.myapplication.RegistrationActivity" />
+        <activity android:name="com.example.myapplication.ConfirmationActivity" />
 
     </application>
 

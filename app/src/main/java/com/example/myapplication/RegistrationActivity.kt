@@ -1,4 +1,4 @@
-package com.cs173.myapplication
+package com.example.myapplication
 
 import android.app.AlertDialog
 import android.app.DatePickerDialog
@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import com.cs173.myapplication.R
 
 class RegistrationActivity : AppCompatActivity() {
 
